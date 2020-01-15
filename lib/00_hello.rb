@@ -1,3 +1,5 @@
 def say_hello
-  puts "Bonjour"
+  first_name = gets.chomp
+  puts "Bonjour, #{first_name}"
 end
+
